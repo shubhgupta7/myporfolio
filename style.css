@@ -1,0 +1,148 @@
+
+.bgimg{
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.h1,.h2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    transition: 0.1s;
+    
+    font-size: 20px;
+}
+
+.h1:hover
+{
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;   
+}
+.div1,.header{
+    flex: 1;
+    height: 100px;
+}
+.header{
+    margin: 30px;
+    background-color:beige;
+}
+.imgdiv{
+    width: 100px;
+    height: 100px;
+}
+.img{
+    
+    object-fit:cover;
+    width: 230px;
+    height: 230px;
+    border-radius:250px;
+    border-style: double;
+    border-color: rgb(209, 6, 255);
+    border-style: solid;
+    align-items: center;
+    transition:  cubic-bezier(0.445, 0.05, 0.55, 0.95) 1s;
+    filter: contrast(0) grayscale(1);
+    
+}
+.abtme{
+    color: rgb(111, 71, 23);
+    font-family: 'Oswald', sans-serif;
+}
+.img:hover{
+    width: 270px;
+    height: 270px;
+    filter: contrast(1) grayscale(0);
+    
+    
+}
+
+.introbox{
+margin: 30px;
+display:grid;
+grid-template-columns: 280px 1fr;
+padding: 50px;
+background-color:rgb(255, 255, 255);
+border-top-right-radius: 50px;
+border-bottom-left-radius: 50px;
+height: 280px;
+border-color: rgb(134, 78, 186);
+border-style:groove;
+}
+.box{
+width: 500px;
+height: 80px; 
+flex: 1;
+border-radius:60px;
+padding: 20px;
+padding-left: 30px;
+border-style: solid;
+border-color:gold;
+font-size: 30px;
+color: rgb(0, 0, 0);
+
+
+
+}
+.box:hover{
+background-color:rgb(195, 198, 168);
+border-color: red;
+}
+
+
+.contact{
+display: flex;
+flex-direction: row;
+margin: 100px;
+margin-top: 200px;
+
+}
+.mehere{
+color: white;flex:1; margin: 10PX;
+}
+.leftside{
+font-size: 35px;color: goldenrod; font-weight: bolder;margin-left: 50px;
+}
+
+.projectss{
+    width: 100%;
+}
+.projects{
+font-size: 50px;
+text-align: center;
+color:rgb(0, 0, 0);
+font-weight: bolder;
+font-family: Georgia, 'Times New Roman', Times, serif;
+transition: 2s;
+margin-bottom: 40px;
+
+}
+
+.projects:hover{
+    font-size: 70px;
+}
+
+.butproj{
+width: 400px;
+height:450px;
+margin: 20px;
+margin-top: 40px;
+border-radius: 10px;
+background-color: black;
+
+transition:500ms
+}
+.butproj:hover{
+width: 410px;
+height: 480px;
+
+}
+.divproj{
+margin-left: 20px;
+align-items: center;
+}
+.projectname{
+text-align: center;
+}
+
+
